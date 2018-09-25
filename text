@@ -1,0 +1,51 @@
+'''#1
+celsius = float(raw_input("Enter a degree in Celsius:"))
+fahrenheit = (9/5) * celsius + 32
+print("{} Celsius is {} Fahrenheit".format(celsius,fahrenheit))
+#2
+radius,length = eval(raw_input("Enter the radius and length of a cylinder: "))
+area = radius * radius * 3.14
+volume = area * length
+print("The area is {},The volume is {}".format(area,volume))
+#3
+feet = float(raw_input("Enter a value for feet: "))
+meters = 0.305 * feet
+print("{} feet is {} meters".format(feet,meters))
+#4
+water = float(raw_input("Enter the of water in kilograms:"))
+int_tem = float(raw_input("Enter the initial temperature:"))
+final_tem = float(raw_input("Enter the final temperature:"))
+Q = water * (final_tem - int_tem) * 4184
+print("The energy needed is {}".format(Q))
+#5
+balance,interest_rate = eval(raw_input("Enter balance and interest rate(e.g.,3 for 3%):"))
+interest = balance * (interest_rate / 1200)
+print("The interest is {}".format(interest))
+#6
+v0,v1,t = eval(raw_input("Enter v0,v1,t:"))
+a = (v1-v0) / t
+print("The average acceleration is {}".format(a))'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
